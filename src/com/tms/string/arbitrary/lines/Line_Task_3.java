@@ -34,14 +34,4 @@ public class Line_Task_3 {
     public static boolean isSearchedWordPalindrome(String searchedWord){
         return searchedWord.equals(new StringBuilder(searchedWord).reverse().toString());
     }
-
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
 }
